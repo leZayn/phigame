@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="8" tileheight="8" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="tileset_GRASS.tsx"/>
+ <tileset firstgid="225" source="tileset_DIRT.tsx"/>
+ <layer id="1" name="Kachelebene 1" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztVDsKwkAQnRzFHEDQ2ltYeQTLHECwt7EXxEawslL8NLY2aqEg2uhRfEN2cDMm/nbFZh88dnYIO583E6KAgICA19iA2w/8vmMm4PgDv4/YHbALjr6wXfPYgwewBVYslsDY2NWCswaeHeMvIqIJODXvlt5gbE7WYxk5JkB3DaSuZ7T7UgbX5EeDFmX7a9cpdqz83P8B+dFA+q/jVyyf9nP/WTsXDYZgk7L91/XHBX7pv4sG9vwX1V/k96GBzH+i4mm98/yyA64aMBLK1lml/L23/TIDrpD90/P96pQZcN2/I1inVMueYQNs59z7lM4Lf8/1D8jP/u3NO6zlHJzBXlJq67v8L31pLznIO1fwZPK5qvvOfC/5/gKr6J7PzsRcqDr1PSCAcfl3AgEPuAGTIG+Z
+  </data>
+ </layer>
+</map>
