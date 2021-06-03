@@ -6,13 +6,12 @@ import com.badlogic.gdx.graphics.GL20;
 import com.six.phigame.screen.GameScreen;
 
 public class PhiGame extends Game {
-
     private GameScreen gameScreen;
 
     @Override
     public void create() {
         gameScreen  = new GameScreen(this);
-        this.setScreen(gameScreen);
+        setScreen(gameScreen);
     }
 
     @Override
@@ -23,6 +22,23 @@ public class PhiGame extends Game {
     }
 
     @Override
+    public void resize(int width, int height) {
+        super.resize(width, height);
+    }
+
+    @Override
+    public void pause() {
+        super.pause();
+    }
+
+    @Override
+    public void resume() {
+        super.resume();
+    }
+
+    @Override
     public void dispose() {
+        gameScreen.dispose();
+        super.dispose();
     }
 }
